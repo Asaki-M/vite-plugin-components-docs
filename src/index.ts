@@ -1,11 +1,11 @@
 import type { Plugin } from 'vite'
 
 
-function VitepluginEasy(): Plugin {
+function VitePluginComponentsDocs(): Plugin {
 
   return {
-    name: 'vite-plugin-easy',
+    name: 'vite-plugin-components-docs',
   }
 }
 
-export default VitepluginEasy
+export default VitePluginComponentsDocs

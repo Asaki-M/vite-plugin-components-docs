@@ -1,12 +1,12 @@
 import { addVitePlugin, defineNuxtModule } from '@nuxt/kit'
-import VitepluginEasy from '.'
+import VitePluginComponentsDocs from '.'
 
 export default defineNuxtModule({
   meta: {
-    name: 'vite-plugin-easy',
-    configKey: 'vite-plugin-easy',
+    name: 'vite-plugin-components-docs',
+    configKey: 'vite-plugin-components-docs',
   },
   setup() {
-    addVitePlugin(() => VitepluginEasy())
+    addVitePlugin(() => VitePluginComponentsDocs())
   },
 }) as any
